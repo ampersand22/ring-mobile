@@ -36,7 +36,6 @@ export const posts: post[] = [
     likes: [2],
     author: 1,
     comments: [],
-    authorDetails: {},
   },
   {
     id: 2,
@@ -45,7 +44,6 @@ export const posts: post[] = [
     likes: [2],
     author: 2,
     comments: [],
-    authorDetails: {},
   },
   {
     id: 3,
@@ -54,6 +52,5 @@ export const posts: post[] = [
     likes: [2],
     author: 3,
     comments: [],
-    authorDetails: {},
   },
 ]

@@ -13,7 +13,12 @@ export interface post {
   likes: number[];
   author: number;
   comments: comment[];
-  authorDetails: any,
+  currentUser?: any;
+
+  authorDetails?: User;
+  likePost?: () => void;
+  unlikePost?: () => void;
+  makeComment?: () => void;
 }
 
 export interface User {
@@ -24,3 +29,11 @@ export interface User {
   avatar?: string;
   location: string;
 }
+
+export interface Stable {
+  id: number;
+  name: string;
+  members: User[];
+}
+
+// stables 
